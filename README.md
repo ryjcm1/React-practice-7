@@ -21,3 +21,5 @@ Case 3. Component where the prop is set to a fixed value of false
 - on unrelated state change in app.js, both parent and child component are run however no changes are seen in dom
 
 ### conclusion - if parent is re-evaluated, children element/ components will also be re-evaluated independent
+
+React.memo
